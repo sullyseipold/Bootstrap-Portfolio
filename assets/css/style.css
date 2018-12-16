@@ -1,0 +1,166 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    /* margin-bottom: 60px; original from sticky footer css */
+      /* color: #777777; */
+      /* border-style: solid; */
+      /* border-color: #4aaaa5; */
+      border-width: 2px;
+      padding: 1px;
+      margin: 1px 1px 60px 1px;
+      background: #ffffff;
+      background-image: url("../images/concrete_seamless.png");
+      /* position: relative; */
+      /* height: 100%; */
+      /* display: flex;
+      flex-direction: column; */
+  }
+  
+
+  /* #my-nav {
+    border-style: solid;
+    border-bottom: 2px;
+    margin-bottom: 100px;
+  } */
+
+  #name-tab {
+    position: absolute;
+    background:#4aaaa5;
+    padding: 0px 15px 0px;
+    /* left: 0px; */
+    /* bottom: 0px; */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+nav .bg-white {
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+  }
+
+  .bg-white {
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #777777;
+}
+
+#nav-container {
+  width:  960px;
+}
+
+  #navbar-right {
+      float: right;  }
+
+  #nav-link-left {
+    float: left;
+    margin-right: 10px;
+
+  }
+
+  #nav-link-center {
+    float: left;
+    /* padding: 0px 10px 0px 10px; */
+    margin-right: 10px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 1px 0px 1px;
+
+  }
+
+  #nav-link-right {
+    float: left;
+    margin-right: 10px;
+
+  }
+
+  #content-header {
+    color: #4aaaa5;
+    border-bottom: 1px solid #cccccc;
+    height: 48px;
+    margin-bottom: 0px;
+  }
+
+  #main-content {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    width: 914px;
+    margin-top: 10px;
+    /* padding: 5px 20px 20px 20px; */
+    color: #777777;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-bottom: auto; */
+    /* margin-bottom: 80px; */
+    /* flex: 1 0 auto; */
+  }
+
+  #profile-pic {
+    margin-right: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background: #666666;
+    color: white;
+    height: 70px;
+    border-top: 8px solid #4aaaa5;  
+}
+
+.one-line-input {
+  width: 100%;
+  margin: 5px 0px 15px 0px;
+}
+
+.multi-line-input {
+  width: 100%;
+  padding: 0px 0px 200px 0px;
+  margin: 5px 0px 12px 0px;
+  overflow: scroll;
+
+}
+
+#contact-button {
+  background: #4aaaa5;
+  color: white;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  padding:  10px 32px;
+}
+
+.text-muted#copyright {
+    color: white;
+}
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+  
